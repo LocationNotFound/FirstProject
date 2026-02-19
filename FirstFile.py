@@ -12,7 +12,14 @@ class RandomClass:
 def sum(*args):
   result = 0
   for i in args:
-    result += 1
+    result += i
+  print(result)
+
+
+def muk(*args):
+  result = 1
+  for i in args:
+    result * i
   print(result)
 
 
